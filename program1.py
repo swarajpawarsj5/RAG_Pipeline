@@ -11,7 +11,7 @@ def load_text_file(file_name: str):
     data = loader.load()
     print(data)
     
-# load_text_file("./data/sample.txt")
+load_text_file("./data/sample.txt")
     
 def load_pdf_file(file_name: str):
     
@@ -24,4 +24,4 @@ def load_pdf_file(file_name: str):
     
 
 
-load_pdf_file("./data/swaraj_resume.pdf")
+# load_pdf_file("./data/swaraj_resume.pdf")
